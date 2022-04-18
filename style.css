@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+body{
+    background-color: rgb(56, 55, 55);
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height:100px;
+    width: 100%;
+    background-color:  rgb(228, 100, 15);
+    box-shadow: 0 2px 5px black;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px 8%;
+}
+.home{
+    font-size: 20px;
+}
+.t22logo{
+    height: 80px;
+}
+.teamSearch{
+    height: 50px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: none;
+    border: 0px;
+}
+#formDiv{
+    height:400px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: wheat;
+    justify-content: space-around;
+    margin-left: 35%;
+    margin-top: 50%;
+    align-items: center;
+    
+    visibility: hidden;
+}
+#cross{
+    height:22px;
+    width: 22px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#formDiv input{
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 25px;
+}
+
+main{
+    margin-top: 110px;
+}
+a{
+    text-decoration: none;
+}
+#tContainer,#playersDiv{
+  
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    
+    
+}
+.tCard:hover{
+    box-shadow: 4px 4px 5px 3px black;
+}
+.tCard{
+    height: 350px;
+    width:250px ;
+    
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color:black ;
+    box-shadow: 0px 2px 3px 2px black;
+}
+.imgContainer{
+    height: 80%;
+    border-radius: 5px;
+}
+.tLogo{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px ;
+}
+.tName{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(228, 100, 15);
+}
+.pcard1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 370px ;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    box-shadow: 0px 2px 3px 2px black;
+}
+.pcard1:hover{
+    box-shadow: 4px 4px 5px 3px black;
+}
+.pimgDiv{
+    height: 60%;
+    width: 100%;
+}
+.pName{
+    height: 20px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 15px;
+    color:rgb(228, 100, 15)
+}
+.pimg1{
+    height: 100%;
+    width: 100%;
+}
+#toppers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.teamImg{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+.pdetailsDiv{
+    display: flex;
+    flex-direction: column;
+    height: 27%;
+    color: white;
+}
+.pTeam1{
+    margin: 2px 0 2px 0;
+    text-align: center;
+}
+.teamName{
+    color: rgb(228, 100, 15);
+    font-size: 40px;
+}
+.tbm{
+    font-size: 25px;
+    color: wheat;
+    letter-spacing: 1px;
+    height: 30px;
+    box-sizing: border-box;
+    margin:7px 0 7px 0;
+}
+.bm1{
+    color: rgb(228, 100, 15);
+    margin-left: 5px;
+}
+#playerId{
+    margin-top: 250px;
+    display: grid;
+    grid-template-columns: 38% 59%;
+    grid-gap:30px
+}
+.playerPhotoDiv{
+width: 100%;
+height: 600px;
+margin-left: 30px;
+box-sizing: border-box;
+
+}
+.playerPhoto{
+    width: 100%;
+    height: 100%;
+}
+#aboutPlayer{
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.name{
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing:1.5px;
+    color: white;
+    text-align: center;
+}
+.team{
+    font-size: 30px;
+    margin-left: 10px;
+    color:wheat;
+}
+.steam{
+    margin-left: 5px;
+    color: rgb(228, 100, 15);
+}
+#addTeam{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+#newTeamId{
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color:rgb(241, 86, 24) ;
+    color:wheat;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.footerClass{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(241, 86, 24);
+}
+.footerp{
+    text-align: center;
+    margin-top: 20px;
+}
