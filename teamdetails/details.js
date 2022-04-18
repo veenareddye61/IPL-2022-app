@@ -18,7 +18,7 @@ var players=JSON.parse(localStorage.getItem('playersStorage'))
             for(j=0;j<players.length;j++){
                 if(teamsData[i].teamName==players[j].from){
                     console.log(players[j])
-                    var playersCard1=`<a href="${'/playerdetails/player.html?pid='+players[j].pid}" alt="player"><div class="pcard1"><h4 class="pName">${players[j].fullName}</h4>
+                    var playersCard1=`<a href="${'.../playerdetails/player.html?pid='+players[j].pid}" alt="player"><div class="pcard1"><h4 class="pName">${players[j].fullName}</h4>
                     <div class="pimgDiv"><img class="pimg1" src="${players[j].photo}"/></div>
                     <div class="pdetailsDiv">
                     <p class="pTeam1">${players[j].from}</p>
