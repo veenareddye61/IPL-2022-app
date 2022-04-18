@@ -835,7 +835,7 @@ return teamsStorage;
     for(i=0;i<teamsData.length;i++){
 
     
-      var teamsCard = `<a href="${'/teamdetails/tdetails.html?id='+teamsData[i].id}" alt="team details"><div id="${teams[i].id}" class="tCard" ><div class="imgContainer"><img src="${teams[i].teamIcon}" class="tLogo" alt="teamname"/></div><h3 class="tName">
+      var teamsCard = `<a href="${'../teamdetails/tdetails.html?id='+teamsData[i].id}" alt="team details"><div id="${teams[i].id}" class="tCard" ><div class="imgContainer"><img src="${teams[i].teamIcon}" class="tLogo" alt="teamname"/></div><h3 class="tName">
            ${teamsData[i].teamName} </h3>
           </div></a>`
           teamsDiv.append(teamsCard);
