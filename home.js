@@ -97,7 +97,7 @@ var players=[
   "fullName":"MS Dhoni (c)",
       "from":"CSK",
       "price":"10cr",
-      "PlayingStates":"Playing",
+      "PlayingStatus":"Playing",
       "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYYu9k1zYo1A3by5Y0Qwxn80zOgzuSpegDcw&usqp=CAU",
       "role":"Wicket-Keeper"
   },{
@@ -107,7 +107,7 @@ var players=[
     "fullName":"Ravindra Jadeja",
       "from":"CSK",
       "price":"16 Cr",
-      "PlayingStates":"Playing",
+      "PlayingStatus":"Playing",
       "photo":"https://im.rediff.com/cricket/2022/mar/25jadeja1.jpg?w=670&h=900",
       "role":"Bowler"
   },{
@@ -117,7 +117,7 @@ var players=[
     "fullName":"Moeen Ali",
       "from":"CSK",
       "price":"8cr",
-      "PlayingStates":"Playing",
+      "PlayingStatus":"Playing",
       "photo":"https://pbs.twimg.com/media/EugN-7jVEAIFKLk.jpg",
       "role":"batsman All-rounder"
   }, {
@@ -127,7 +127,7 @@ var players=[
     "fullName":"Ruturaj Gaikwad",
       "from":"CSK",
       "price":"6cr",
-      "PlayingStates":"Playing",
+      "PlayingStatus":"Playing",
       "photo":"https://www.mobilenewspepar.in/wp-content/uploads/2022/03/lcp4fir8_ruturaj-gaikwad_625x300_16_October_21.jpg",
       "role":"batsman"
    },
@@ -138,7 +138,7 @@ var players=[
     "fullName":"Dwayne Bravo",
       "from":"CSK",
       "price":"3cr",
-      "PlayingStates":"Playing",
+      "PlayingStatus":"Playing",
       "photo":"https://images.news18.com/ibnlive/uploads/2021/12/pjimage-2021-12-08t174820.058-16389659274x3.jpg",
       "role":"bowler"
   },{
@@ -148,7 +148,7 @@ var players=[
     "fullName":"Ambati Rayudu",
       "from":"CSK",
       "price":"6.75cr",
-      "PlayingStates":"Playing",
+      "PlayingStatus":"Playing",
       "photo":"https://img.mensxp.com/media/content/2022/Feb/header-credit-Twitter---CSK_61fa36206febe.jpeg",
       "role":"batsman"
   },{
@@ -158,7 +158,7 @@ var players=[
     "fullName":"Dwaine Pretorius",
       "from":"CSK",
       "price":"50lac",
-      "PlayingStates":"Playing",
+      "PlayingStatus":"Playing",
       "photo":"http://www.firstpost.com/wp-content/uploads/2019/04/Dwaine-Pretorius-380-reuters.jpg",
       "role":"bowler"
   },{
@@ -168,7 +168,7 @@ var players=[
     "fullName":"Virat Kohli",
       "from":"RCB",
       "price":"15cr",
-      "PlayingStates":"playing",
+      "PlayingStatus":"playing",
       "photo":"https://imgk.timesnownews.com/story/Virat_Kohli_IPL_income.png?tr=w-1200,h-900",
       "role":"batsman"
   }, {
@@ -177,7 +177,7 @@ var players=[
   "fullName":"Glenn Maxwell",
     "from":"RCB",
     "price":"11cr",
-    "PlayingStates":"playing",
+    "PlayingStatus":"playing",
     "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXkuAhxE7dphc5mU38Obq5Yf3jX7HAFhiZEw&usqp=CAU",
     "role":"All-Rounder"
 },{
@@ -186,7 +186,7 @@ var players=[
 "fullName":"Faf Du Plessis",
   "from":"RCB",
   "price":"7cr",
-  "PlayingStates":"playing",
+  "PlayingStatus":"playing",
   "photo":"https://resize.indiatvnews.com/en/resize/newbucket/715_-/2022/02/flyqtaxaaaaamvy-1-1644829027.jpg",
   "role":"Batsman"
 },{
@@ -195,7 +195,7 @@ var players=[
 "fullName":"Mohammad Siraj",
   "from":"RCB",
   "price":"7cr",
-  "PlayingStates":"playing",
+  "PlayingStatus":"playing",
   "photo":"https://static.toiimg.com/thumb/msid-90462136,imgsize-26992,width-400,resizemode-4/90462136.jpg",
   "role":"Bowler"
 }, {
@@ -204,7 +204,7 @@ var players=[
 "fullName":"Harshal Patel",
   "from":"RCB",
   "price":"10.75cr",
-  "PlayingStates":"playing",
+  "PlayingStatus":"playing",
   "photo":"https://www.sportsunfold.com/wp-content/uploads/2022/03/Harshal-Patel-IPL-2022-Salary.jpg",
   "role":"Bowler"
 }, {
@@ -213,7 +213,7 @@ var players=[
 "fullName":"Wanindu Hasaranga",
   "from":"RCB",
   "price":"10.75cr",
-  "PlayingStates":"playing",
+  "PlayingStatus":"playing",
   "photo":"https://ommcom.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/03/30214631/8487354440dc6aaceda944b860aea9c9.jpg",
   "role":"Bowler"
 },  {
@@ -222,7 +222,7 @@ var players=[
 "fullName":"Dinesh Karthik",
   "from":"RCB",
   "price":"5.5cr",
-  "PlayingStates":"playing",
+  "PlayingStatus":"playing",
   "photo":"https://cdn-wp.thesportsrush.com/2022/04/9aa8cc43-dinesh-karthik.jpg",
   "role":"Batsman/Wicket-keeper"
 },
