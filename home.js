@@ -97,7 +97,7 @@ var players=[
   "fullName":"MS Dhoni (c)",
       "from":"CSK",
       "price":"10cr",
-      "PlayingStatus":"Playing",
+      "playingStatus":"Playing",
       "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYYu9k1zYo1A3by5Y0Qwxn80zOgzuSpegDcw&usqp=CAU",
       "role":"Wicket-Keeper"
   },{
@@ -107,7 +107,7 @@ var players=[
     "fullName":"Ravindra Jadeja",
       "from":"CSK",
       "price":"16 Cr",
-      "PlayingStatus":"Playing",
+      "playingStatus":"Playing",
       "photo":"https://im.rediff.com/cricket/2022/mar/25jadeja1.jpg?w=670&h=900",
       "role":"Bowler"
   },{
@@ -117,7 +117,7 @@ var players=[
     "fullName":"Moeen Ali",
       "from":"CSK",
       "price":"8cr",
-      "PlayingStatus":"Playing",
+      "playingStatus":"Playing",
       "photo":"https://pbs.twimg.com/media/EugN-7jVEAIFKLk.jpg",
       "role":"batsman All-rounder"
   }, {
@@ -127,7 +127,7 @@ var players=[
     "fullName":"Ruturaj Gaikwad",
       "from":"CSK",
       "price":"6cr",
-      "PlayingStatus":"Playing",
+      "playingStatus":"Playing",
       "photo":"https://www.mobilenewspepar.in/wp-content/uploads/2022/03/lcp4fir8_ruturaj-gaikwad_625x300_16_October_21.jpg",
       "role":"batsman"
    },
@@ -138,7 +138,7 @@ var players=[
     "fullName":"Dwayne Bravo",
       "from":"CSK",
       "price":"3cr",
-      "PlayingStatus":"Playing",
+      "playingStatus":"Playing",
       "photo":"https://images.news18.com/ibnlive/uploads/2021/12/pjimage-2021-12-08t174820.058-16389659274x3.jpg",
       "role":"bowler"
   },{
@@ -148,7 +148,7 @@ var players=[
     "fullName":"Ambati Rayudu",
       "from":"CSK",
       "price":"6.75cr",
-      "PlayingStatus":"Playing",
+      "playingStatus":"Playing",
       "photo":"https://img.mensxp.com/media/content/2022/Feb/header-credit-Twitter---CSK_61fa36206febe.jpeg",
       "role":"batsman"
   },{
@@ -158,7 +158,7 @@ var players=[
     "fullName":"Dwaine Pretorius",
       "from":"CSK",
       "price":"50lac",
-      "PlayingStatus":"Playing",
+      "playingStatus":"Playing",
       "photo":"http://www.firstpost.com/wp-content/uploads/2019/04/Dwaine-Pretorius-380-reuters.jpg",
       "role":"bowler"
   },{
@@ -168,7 +168,7 @@ var players=[
     "fullName":"Virat Kohli",
       "from":"RCB",
       "price":"15cr",
-      "PlayingStatus":"playing",
+      "playingStatus":"playing",
       "photo":"https://imgk.timesnownews.com/story/Virat_Kohli_IPL_income.png?tr=w-1200,h-900",
       "role":"batsman"
   }, {
@@ -177,7 +177,7 @@ var players=[
   "fullName":"Glenn Maxwell",
     "from":"RCB",
     "price":"11cr",
-    "PlayingStatus":"playing",
+    "playingStatus":"playing",
     "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXkuAhxE7dphc5mU38Obq5Yf3jX7HAFhiZEw&usqp=CAU",
     "role":"All-Rounder"
 },{
@@ -186,7 +186,7 @@ var players=[
 "fullName":"Faf Du Plessis",
   "from":"RCB",
   "price":"7cr",
-  "PlayingStatus":"playing",
+  "playingStatus":"playing",
   "photo":"https://resize.indiatvnews.com/en/resize/newbucket/715_-/2022/02/flyqtaxaaaaamvy-1-1644829027.jpg",
   "role":"Batsman"
 },{
@@ -195,7 +195,7 @@ var players=[
 "fullName":"Mohammad Siraj",
   "from":"RCB",
   "price":"7cr",
-  "PlayingStatus":"playing",
+  "playingStatus":"playing",
   "photo":"https://static.toiimg.com/thumb/msid-90462136,imgsize-26992,width-400,resizemode-4/90462136.jpg",
   "role":"Bowler"
 }, {
@@ -204,7 +204,7 @@ var players=[
 "fullName":"Harshal Patel",
   "from":"RCB",
   "price":"10.75cr",
-  "PlayingStatus":"playing",
+  "playingStatus":"playing",
   "photo":"https://www.sportsunfold.com/wp-content/uploads/2022/03/Harshal-Patel-IPL-2022-Salary.jpg",
   "role":"Bowler"
 }, {
@@ -213,7 +213,7 @@ var players=[
 "fullName":"Wanindu Hasaranga",
   "from":"RCB",
   "price":"10.75cr",
-  "PlayingStatus":"playing",
+  "playingStatus":"playing",
   "photo":"https://ommcom.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/03/30214631/8487354440dc6aaceda944b860aea9c9.jpg",
   "role":"Bowler"
 },  {
@@ -222,7 +222,7 @@ var players=[
 "fullName":"Dinesh Karthik",
   "from":"RCB",
   "price":"5.5cr",
-  "PlayingStatus":"playing",
+  "playingStatus":"playing",
   "photo":"https://cdn-wp.thesportsrush.com/2022/04/9aa8cc43-dinesh-karthik.jpg",
   "role":"Batsman/Wicket-keeper"
 },
@@ -805,40 +805,66 @@ var players=[
 addDiv.append(addDiv1);
 $("#cross").click(()=> formDiv.style.visibility='hidden')
 console.log(champoinshipWonCount,teamId1)
- function addedToTeams(){
-     formDiv.style.visibility='hidden'
-     let champoinshipWonCount=document.getElementById("champoinshipWonCount").value;
-    let teamId1=document.getElementById("teamId1").value;
-let playerCount=document.getElementById("playerCount").value;
-let teamIcon=document.getElementById("teamIcon").value;
-let teamName=document.getElementById("teamName").value;
-let topBatsmen=document.getElementById("topBatsmen").value;
-let topBowler=document.getElementById("topBowler").value;
-teams.push({id:teamId1,
-    teamName:teamName,
-    teamIcon:teamIcon,
-    playerCount:playerCount,
-    topBatsmen:topBatsmen,
-    topBowler:topBowler,
-    champoinshipWonCount:champoinshipWonCount
-})
-console.log(teams)
-var teamsStorage=localStorage.setItem("teamsStorage",JSON.stringify(teams));
-return teamsStorage;
-}
+ 
     
     var playersStorage=localStorage.setItem("playersStorage",JSON.stringify(players));
     var teamsData=JSON.parse(localStorage.getItem('teamsStorage'));
     console.log(teamsData)
  
-    var teamsDiv=$("#tContainer");
-    for(i=0;i<teamsData.length;i++){
-
+    /*var teamsDiv=$("#tContainer");*/
+    var teamsDiv=document.getElementById("tContainer");
     
-      var teamsCard = `<a href="${'../teamdetails/tdetails.html?id='+teamsData[i].id}" alt="team details"><div id="${teams[i].id}" class="tCard" ><div class="imgContainer"><img src="${teams[i].teamIcon}" class="tLogo" alt="teamname"/></div><h3 class="tName">
+    function teamsCard(id,teamIcon,teamName){
+        var anchor=document.createElement("a");
+        anchor.href='./teamdetails/tdetails.html?id='+id;
+        var carddivmain=document.createElement("div")
+        carddivmain.id=id;
+        carddivmain.className="tCard";
+        anchor.append(carddivmain)
+        var cardimgdiv = document.createElement("div");
+        cardimgdiv.className = "imgContainer"
+        var imagelogo=document.createElement("img");
+        imagelogo.src=teamIcon;
+        imagelogo.className="tLogo";
+        cardimgdiv.appendChild(imagelogo)
+        var cardheading = document.createElement("h3")
+        cardheading.innerHTML=teamName
+        cardheading.className="tName"
+        carddivmain.append(cardimgdiv,cardheading);
+        
+        teamsDiv.append(anchor);
+    }
+
+    function addedToTeams(){
+        formDiv.style.visibility='hidden'
+        let champoinshipWonCount=document.getElementById("champoinshipWonCount").value;
+       let teamId1=document.getElementById("teamId1").value;
+   let playerCount=document.getElementById("playerCount").value;
+   let teamIcon=document.getElementById("teamIcon").value;
+   let teamName=document.getElementById("teamName").value;
+   let topBatsmen=document.getElementById("topBatsmen").value;
+   let topBowler=document.getElementById("topBowler").value;
+   teams.push({id:teamId1,
+       teamName:teamName,
+       teamIcon:teamIcon,
+       playerCount:playerCount,
+       topBatsmen:topBatsmen,
+       topBowler:topBowler,
+       champoinshipWonCount:champoinshipWonCount
+   })
+   console.log(teams)
+   localStorage.setItem("teamsStorage",JSON.stringify(teams));
+   teamsCard(teamId1,teamIcon,teamName);
+   
+   }
+
+    for(i=0;i<teamsData.length;i++){
+teamsCard(teamsData[i].id,teamsData[i].teamIcon,teamsData[i].teamName)
+    
+     /* var teamsCard = `<a href="${'./teamdetails/tdetails.html?id='+teamsData[i].id}" alt="team details"><div id="${teams[i].id}" class="tCard" ><div class="imgContainer"><img src="${teams[i].teamIcon}" class="tLogo" alt="teamname"/></div><h3 class="tName">
            ${teamsData[i].teamName} </h3>
           </div></a>`
-          teamsDiv.append(teamsCard);
+          teamsDiv.append(teamsCard);*/
     }
 
 var newTeam=$("#addTeam").html("<button id='newTeamId' onclick='addTeam()'>Add Team</button> ")
