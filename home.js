@@ -29,7 +29,7 @@ var teams=[
     {
         "id":"4",
       "teamName" : "PBKS",
-      "teamIcon" : "https://upload.wikimedia.org/wikipedia/en/1/1c/Punjab_Kings_logo_2021.png",
+      "teamIcon" : "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Punjab_Kings_Logo.svg/800px-Punjab_Kings_Logo.svg.png",
       "playerCount" : "20",
       "topBatsmen": "Mayank Agarwal",
       "topBowler": "Kagiso Rabada",
